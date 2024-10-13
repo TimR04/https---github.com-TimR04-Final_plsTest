@@ -80,7 +80,7 @@ def create_user_table():
         message confirms the table already exists.
 
     """
-    conn = database.connect_to_db()
+    conn = connect_to_db()
     cur = conn.cursor()
     try:
         cur.execute('''
@@ -100,6 +100,8 @@ def create_user_table():
         raise e
     finally:
         conn.close()
+
+create_user_table
 
 def register_user(username, password):
     """
@@ -443,5 +445,5 @@ def get_user_streak_data(user_id):
     finally:
         conn.close()
 
-if __name__ == "__main__":
-    create_user_table()  
+#Call function create_user_table to initialize_db
+create_user_table
