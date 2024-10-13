@@ -1,11 +1,12 @@
 """
-Book Recommendation App
+Book Management App
 
-- This Flask application serves as a front-end for a book recommendation system. 
-- Users can register, log in, search for books using the Google Books API, and save their favorites. 
-- Favorites are stored in JSON format, and users can manage them through the app.
+-It serves as the central interface between the frontend and backend functions.
+-Routes are defined to enable communication between the user and the application.
+-The file controls how user requests are processed and how data is passed to the backend.
+-Data is rendered in templates after processing.
 
-Author: Paul, Tim, Thang
+Paul, Tim, Thang
 Date: 06.10.2024
 Version: 0.1.0 (major.minor.bugfix)
 License: Free
@@ -35,7 +36,7 @@ def homepage():
     - None.
 
     Return:
-    - RenderedTemplate: The rendered homepage (`index.html`) with optional streak data.
+    - RenderedTemplate: The rendered homepage (`homepage.html`) with optional streak data.
 
     Tests:
     - Test 1: User Logged In
@@ -43,7 +44,7 @@ def homepage():
       - Expected Outcome: The function retrieves and displays the user's streak data.
     
     - Test 2: User Not Logged In
-      - Input: Call `index()` without a user logged in (no user_id in the session).
+      - Input: Call `homepage()` without a user logged in (no user_id in the session).
       - Expected Outcome: The function renders the homepage without streak data.
     """
     user_id = session.get('user_id')
