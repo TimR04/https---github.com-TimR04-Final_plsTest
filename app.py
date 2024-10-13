@@ -420,17 +420,10 @@ def bookmark():
     return render_template('bookmarks.html', favorites=favorites)
 
 
-# Configure logging to write to a file
-logging.basicConfig(
-    filename='app.log',  # Name of the log file
-    level=logging.INFO,  # Log level (use DEBUG, INFO, WARNING, ERROR, CRITICAL)
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
-
 @app.route('/update_current_page', methods=['POST'])
 def update_current_page():
     """
-    Label: Update Favorite Page Function
+    Label: Update Current Page Function
 
     Short Description:
     Updates the current page for a user's favorite book and updates the user's reading streak.
