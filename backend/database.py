@@ -101,8 +101,6 @@ def create_user_table():
     finally:
         conn.close()
 
-create_user_table
-
 def register_user(username, password):
     """
     Registers a new user by storing the hashed username and password in the database.
@@ -445,5 +443,6 @@ def get_user_streak_data(user_id):
     finally:
         conn.close()
 
-#Call function create_user_table to initialize_db
-create_user_table
+#call to initialize database
+if __name__ == "__main__":
+    create_user_table()  

@@ -1,0 +1,2 @@
+2024-10-13 20:52:23,559 - INFO - Database connection established successfully.
+2024-10-13 20:52:23,563 - INFO - Table 'users' created or already exists with UNIQUE constraint on 'username'.
