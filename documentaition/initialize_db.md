@@ -1,2 +1,2 @@
 # Initialize Database Module
-::: app
+::: intialize_db

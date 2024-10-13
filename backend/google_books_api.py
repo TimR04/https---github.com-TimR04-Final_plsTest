@@ -12,10 +12,6 @@ License: Free
 import requests
 import logging
 
-# Set up logging configuration
-logging.basicConfig(filename='application.log', 
-                    level=logging.INFO, 
-                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 def search_books(field_of_interest, specific_topic):
     """

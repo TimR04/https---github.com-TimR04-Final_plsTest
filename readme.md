@@ -6,7 +6,7 @@ Paul Willy
 
 ### How to start the application.
 
-1. Requirements installieren pip install -r requirements.txt
+1. Requirements installieren pip install -r req.txt
 
 2. Initialize Database with =>  python backend/database.py
 

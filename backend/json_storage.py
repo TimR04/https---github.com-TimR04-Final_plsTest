@@ -17,11 +17,6 @@ import logging
 # Path to the JSON file for favorites
 FAVORITES_JSON_PATH = 'favorites.json'
 
-# Set up logging configuration
-logging.basicConfig(filename='application.log', 
-                    level=logging.INFO, 
-                    format='%(asctime)s - %(levelname)s - %(message)s')
-
 
 def load_all_favorites():
     """
