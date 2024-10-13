@@ -1,2 +1,129 @@
 2024-10-13 20:52:23,559 - INFO - Database connection established successfully.
 2024-10-13 20:52:23,563 - INFO - Table 'users' created or already exists with UNIQUE constraint on 'username'.
+2024-10-13 21:32:55,240 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-13 21:32:55,241 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-13 21:32:55,249 - INFO -  * Restarting with stat
+2024-10-13 21:32:56,155 - WARNING -  * Debugger is active!
+2024-10-13 21:32:56,160 - INFO -  * Debugger PIN: 624-779-124
+2024-10-13 21:33:00,028 - INFO - Homepage accessed without login.
+2024-10-13 21:33:00,041 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:00] "GET / HTTP/1.1" 200 -
+2024-10-13 21:33:00,181 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:00,304 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-13 21:33:02,592 - INFO - Registration form accessed.
+2024-10-13 21:33:02,597 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:02] "GET /register HTTP/1.1" 200 -
+2024-10-13 21:33:02,682 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:04,100 - INFO - Database connection established successfully.
+2024-10-13 21:33:04,105 - INFO - User 'Andrea Berg' registered successfully.
+2024-10-13 21:33:04,105 - INFO - User 'Andrea Berg' registered successfully.
+2024-10-13 21:33:04,106 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:04] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-10-13 21:33:04,110 - INFO - Login form accessed.
+2024-10-13 21:33:04,113 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:04] "GET /login HTTP/1.1" 200 -
+2024-10-13 21:33:04,132 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:05,741 - INFO - Database connection established successfully.
+2024-10-13 21:33:05,962 - INFO - User 'Andrea Berg' successfully authenticated.
+2024-10-13 21:33:05,962 - INFO - User 'Andrea Berg' logged in successfully.
+2024-10-13 21:33:05,963 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-13 21:33:05,967 - INFO - Database connection established successfully.
+2024-10-13 21:33:05,967 - INFO - Displayed streak data for user 1.
+2024-10-13 21:33:05,968 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:05] "GET / HTTP/1.1" 200 -
+2024-10-13 21:33:05,987 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:08,677 - INFO - Search form accessed.
+2024-10-13 21:33:08,681 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:08] "GET /search HTTP/1.1" 200 -
+2024-10-13 21:33:08,741 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:10,314 - INFO - Search query for 'Biologie ' returned 10 results.
+2024-10-13 21:33:10,314 - INFO - Successfully retrieved 10 books for query 'Biologie '.
+2024-10-13 21:33:10,315 - INFO - Search query 'Biologie' with topic '' returned 10 results.
+2024-10-13 21:33:10,321 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:10] "POST /search HTTP/1.1" 200 -
+2024-10-13 21:33:10,345 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:16,917 - WARNING - favorites.json does not exist.
+2024-10-13 21:33:16,918 - INFO - Book 'Ergebnisse Der Biologie' added to favorites for user 1.
+2024-10-13 21:33:16,918 - INFO - Added favorite book 'Ergebnisse Der Biologie' for user 1.
+2024-10-13 21:33:16,919 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:16] "[32mPOST /add_favorite HTTP/1.1[0m" 302 -
+2024-10-13 21:33:16,933 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:16,933 - INFO - Favorites displayed for user 1 with category filter 'None'.
+2024-10-13 21:33:16,944 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:16] "GET /favorites HTTP/1.1" 200 -
+2024-10-13 21:33:16,963 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:20,854 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:20,855 - INFO - Removed 1 books from favorites for user 1.
+2024-10-13 21:33:20,856 - INFO - Removed favorites for user 1: ['9783642948053']
+2024-10-13 21:33:20,856 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:20] "[32mPOST /remove_favorites HTTP/1.1[0m" 302 -
+2024-10-13 21:33:20,865 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:20,866 - INFO - Favorites displayed for user 1 with category filter 'None'.
+2024-10-13 21:33:20,867 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:20] "GET /favorites HTTP/1.1" 200 -
+2024-10-13 21:33:20,890 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:22,878 - INFO - Search form accessed.
+2024-10-13 21:33:22,878 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:22] "GET /search HTTP/1.1" 200 -
+2024-10-13 21:33:22,899 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:29,151 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:29,152 - INFO - Displayed bookmarks for user 1.
+2024-10-13 21:33:29,156 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:29] "GET /bookmark HTTP/1.1" 200 -
+2024-10-13 21:33:29,174 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:29,868 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:29,869 - INFO - User 1 has no favorites.
+2024-10-13 21:33:29,873 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:29] "GET /learnings HTTP/1.1" 200 -
+2024-10-13 21:33:29,938 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:30,965 - INFO - Search form accessed.
+2024-10-13 21:33:30,966 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:30] "GET /search HTTP/1.1" 200 -
+2024-10-13 21:33:31,071 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:31,608 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:31,608 - INFO - Favorites displayed for user 1 with category filter 'None'.
+2024-10-13 21:33:31,609 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:31] "GET /favorites HTTP/1.1" 200 -
+2024-10-13 21:33:31,629 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:32,749 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:32,750 - INFO - Favorites displayed for user 1 with category filter ''.
+2024-10-13 21:33:32,751 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:32] "GET /favorites?category= HTTP/1.1" 200 -
+2024-10-13 21:33:32,771 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:33,673 - INFO - Search form accessed.
+2024-10-13 21:33:33,674 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:33] "GET /search HTTP/1.1" 200 -
+2024-10-13 21:33:33,693 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:35,089 - INFO - Search query for 'Biologie ' returned 10 results.
+2024-10-13 21:33:35,089 - INFO - Successfully retrieved 10 books for query 'Biologie '.
+2024-10-13 21:33:35,090 - INFO - Search query 'Biologie' with topic '' returned 10 results.
+2024-10-13 21:33:35,091 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:35] "POST /search HTTP/1.1" 200 -
+2024-10-13 21:33:35,114 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:38,696 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:38,697 - INFO - Book 'Ergebnisse Der Biologie' added to favorites for user 1.
+2024-10-13 21:33:38,697 - INFO - Added favorite book 'Ergebnisse Der Biologie' for user 1.
+2024-10-13 21:33:38,698 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:38] "[32mPOST /add_favorite HTTP/1.1[0m" 302 -
+2024-10-13 21:33:38,703 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:38,704 - INFO - Favorites displayed for user 1 with category filter 'None'.
+2024-10-13 21:33:38,704 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:38] "GET /favorites HTTP/1.1" 200 -
+2024-10-13 21:33:38,725 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:41,655 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:41,655 - INFO - Favorites displayed for user 1 with category filter 'Biologie'.
+2024-10-13 21:33:41,656 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:41] "GET /favorites?category=Biologie HTTP/1.1" 200 -
+2024-10-13 21:33:41,677 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:44,191 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:44,192 - INFO - Favorites displayed for user 1 with category filter 'Physik'.
+2024-10-13 21:33:44,192 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:44] "GET /favorites?category=Physik HTTP/1.1" 200 -
+2024-10-13 21:33:44,209 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:45,662 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:45,663 - INFO - Displayed bookmarks for user 1.
+2024-10-13 21:33:45,663 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:45] "GET /bookmark HTTP/1.1" 200 -
+2024-10-13 21:33:45,683 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:49,190 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:49,190 - INFO - Updated current page to 5 for book Ergebnisse Der Biologie (ISBN: 9783642948053) for user 1.
+2024-10-13 21:33:49,191 - INFO - Updated page to 5 for book with ISBN 9783642948053 for user 1.
+2024-10-13 21:33:49,192 - INFO - Database connection established successfully.
+2024-10-13 21:33:49,197 - INFO - User 1 streak updated: Current streak is 1, Longest streak is 1, Status: reset.
+2024-10-13 21:33:49,204 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:49,204 - INFO - Loaded 1 favorites for user 1.
+2024-10-13 21:33:49,205 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:49] "POST /update_current_page HTTP/1.1" 200 -
+2024-10-13 21:33:49,223 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:50,211 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:50,212 - INFO - Loaded 1 favorites for user 1.
+2024-10-13 21:33:50,212 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:50] "GET /learnings HTTP/1.1" 200 -
+2024-10-13 21:33:50,237 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:51,764 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:51,764 - INFO - Updated learning for book 'Ergebnisse Der Biologie' (ISBN: 9783642948053) for user 1.
+2024-10-13 21:33:51,765 - INFO - Saved learning for book with ISBN 9783642948053 for user 1.
+2024-10-13 21:33:51,766 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:51] "[32mPOST /learnings HTTP/1.1[0m" 302 -
+2024-10-13 21:33:51,775 - INFO - Loaded favorites from favorites.json.
+2024-10-13 21:33:51,775 - INFO - Loaded 1 favorites for user 1.
+2024-10-13 21:33:51,776 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:51] "GET /learnings HTTP/1.1" 200 -
+2024-10-13 21:33:51,796 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-13 21:33:53,001 - INFO - Database connection established successfully.
+2024-10-13 21:33:53,001 - INFO - Displayed streak data for user 1.
+2024-10-13 21:33:53,001 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:53] "GET / HTTP/1.1" 200 -
+2024-10-13 21:33:53,019 - INFO - 127.0.0.1 - - [13/Oct/2024 21:33:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -

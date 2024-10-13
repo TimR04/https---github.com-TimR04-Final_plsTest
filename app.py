@@ -1,5 +1,5 @@
 """
-Book Management App
+Flask Module
 
 -It serves as the central interface between the frontend and backend functions.
 -Routes are defined to enable communication between the user and the application.
